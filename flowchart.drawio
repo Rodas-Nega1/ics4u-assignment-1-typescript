@@ -4,147 +4,129 @@
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" style="edgeStyle=none;html=1;" edge="1" parent="1" source="3">
+                <mxCell id="2" style="edgeStyle=none;html=1;" parent="1" source="3" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="375" y="160" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                <mxCell id="3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="325" y="60" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" style="edgeStyle=none;html=1;" edge="1" parent="1" source="5">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="375" y="280" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="50" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="5" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="Enter rock, paper, or scissors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                <mxCell id="5" value="Enter rock, paper, or scissors" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
                     <mxGeometry x="297.5" y="160" width="155" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="6" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;rounded=0;" edge="1" parent="1" source="8" target="14">
+                <mxCell id="64" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="12">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="374.3800000000001" y="590" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="590" y="330"/>
+                            <mxPoint x="775" y="570"/>
+                            <mxPoint x="374" y="570"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="7" style="edgeStyle=none;html=1;" edge="1" parent="1" source="8">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="375" y="410" as="targetPoint"/>
-                    </mxGeometry>
+                <mxCell id="12" value="&quot;You win!&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="705" y="440" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;rounded=0;" edge="1" parent="1" source="8" target="25">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="360" y="390" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="238" y="380"/>
-                        </Array>
-                    </mxGeometry>
+                <mxCell id="18" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="324.38" y="590" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="29" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="8" target="22">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="98" y="380"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="8" value="try" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="325" y="280" width="100" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="46" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="18">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="98" y="710"/>
-                            <mxPoint x="375" y="710"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="12" value="&quot;You win!&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="27.5" y="610" width="140" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="37" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="14" target="18">
-                    <mxGeometry relative="1" as="geometry">
-                        <mxPoint x="590" y="710" as="sourcePoint"/>
-                        <Array as="points">
-                            <mxPoint x="590" y="710"/>
-                            <mxPoint x="375" y="710"/>
-                        </Array>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="14" value="&quot;That is an invalid&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="520" y="610" width="140" height="80" as="geometry"/>
-                </mxCell>
-                <mxCell id="15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;rounded=0;" edge="1" parent="1" target="14">
-                    <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="590" y="460"/>
-                        </Array>
-                        <mxPoint x="432.5" y="460" as="sourcePoint"/>
-                    </mxGeometry>
-                </mxCell>
-                <mxCell id="18" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="325" y="770" width="100" height="60" as="geometry"/>
-                </mxCell>
-                <mxCell id="19" value="Exception" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="470" y="310" width="70" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="20" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="485" y="440" width="30" height="20" as="geometry"/>
-                </mxCell>
-                <mxCell id="33" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="22" target="12">
+                <mxCell id="51" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="22" target="25">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="25">
+                <mxCell id="53" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="22" target="31">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="if player wins" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="410" width="115" height="100" as="geometry"/>
+                <mxCell id="22" value="&lt;span id=&quot;docs-internal-guid-6195adaa-7fff-0db7-8f2a-d677f404ffa1&quot;&gt;&lt;span style=&quot;background-color: transparent ; vertical-align: baseline&quot;&gt;&amp;nbsp;If&amp;nbsp;player == computer &lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="303.75" y="270" width="141.25" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="35" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="31">
+                <mxCell id="52" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="25" target="49">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="else if player ties" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="318.75" y="410" width="112.5" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="34" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="25" target="30">
+                <mxCell id="56" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="25" target="30">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="48" style="edgeStyle=none;rounded=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="25" target="24">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="25" value="&lt;span id=&quot;docs-internal-guid-828c8912-7fff-55e9-da42-d04f3feabcac&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline&quot;&gt;else if&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline&quot;&gt;(player == &quot;rock&quot; &amp;amp;&amp;amp; computer == &quot;paper&quot;) ...&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="250" width="170" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="else if player loses" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-                    <mxGeometry x="180" y="410" width="115" height="100" as="geometry"/>
-                </mxCell>
-                <mxCell id="38" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="30" target="18">
+                <mxCell id="63" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;rounded=0;" edge="1" parent="1" source="30">
                     <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="374.3800000000001" y="590" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="238" y="710"/>
-                            <mxPoint x="375" y="710"/>
+                            <mxPoint x="565" y="570"/>
+                            <mxPoint x="374" y="570"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="30" value="&quot;You lose.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="167.5" y="610" width="140" height="80" as="geometry"/>
+                <mxCell id="30" value="&quot;You lose.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="495" y="440" width="140" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="36" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="31" target="18">
+                <mxCell id="61" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="374.3800000000001" y="590" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&quot;Tie.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+                    <mxGeometry x="305" y="440" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="770" y="410" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="" style="edgeStyle=none;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="49" target="12">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="&quot;Tie.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
-                    <mxGeometry x="305" y="610" width="140" height="80" as="geometry"/>
+                <mxCell id="68" value="" style="edgeStyle=none;rounded=0;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;startArrow=none;" edge="1" parent="1" source="73" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="370" y="540" width="40" height="20" as="geometry"/>
+                <mxCell id="75" value="" style="edgeStyle=none;rounded=0;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="49" target="67">
+                    <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="40" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="240" y="540" width="40" height="20" as="geometry"/>
+                <mxCell id="49" value="&lt;span id=&quot;docs-internal-guid-17c00ca9-7fff-ecde-b5c4-11feef744c9e&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline&quot;&gt;&amp;nbsp;else if&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34; , sans-serif ; background-color: transparent ; vertical-align: baseline&quot;&gt;(player == &quot;paper&quot; &amp;amp;&amp;amp; computer == &quot;rock&quot;) ...&lt;/span&gt;&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="690" y="250" width="170" height="160" as="geometry"/>
                 </mxCell>
-                <mxCell id="41" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="90" y="540" width="40" height="20" as="geometry"/>
+                <mxCell id="58" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="410" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="43" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="288.75" y="440" width="30" height="20" as="geometry"/>
+                <mxCell id="59" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="400" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="45" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="150" y="440" width="30" height="20" as="geometry"/>
+                <mxCell id="65" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="310" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="445" y="310" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=none;rounded=0;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="67" target="69">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="&lt;font face=&quot;helvetica neue, sans-serif&quot;&gt;else&lt;/font&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="250" width="170" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=none;rounded=0;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;" edge="1" parent="1" source="69">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="374.3800000000001" y="590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="975" y="570"/>
+                            <mxPoint x="374" y="570"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="&quot;That is an invalid input.&quot;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+                    <mxGeometry x="882.5" y="435" width="185" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="Yes" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="410" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="73" value="No" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=none;strokeColor=none;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="310" width="30" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" value="" style="edgeStyle=none;rounded=0;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#F0F0F0;endArrow=none;" edge="1" parent="1" source="49" target="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="860" y="330" as="sourcePoint"/>
+                        <mxPoint x="890" y="330" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
             </root>
         </mxGraphModel>
